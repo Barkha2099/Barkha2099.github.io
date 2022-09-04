@@ -1,5 +1,5 @@
 const settings = {
-  isSplash: true, 
+  isSplash: false,
 };
 
 const seo = {
@@ -17,50 +17,43 @@ const seo = {
 const greeting = {
   title: "Barkha Pawar",
   logo_name: "Barkha Pawar",
-  nickname: "Miney",
+
   subTitle:
-    "A self-motivated and hard worker Engineer with a great passion for programming and coding. I am a creative front end developer who like making beautiful and smart things through coding.",
+    "A self-motivated and hard worker Engineer with a great passion for programming and coding. I am a creative software engineer and front end developer who like making beautiful and smart things through coding.",
   resumeLink:
-    "https://drive.google.com/file/d/1BcoWO0rqIa9RHR29lJuuZcf_p3AwFouW/view?usp=drivesdk",
-  portfolio_repository: "https://github.com/Drago215193/Drago215193.github.io",
+    "https://drive.google.com/file/d/1jK6aTRdW7_HKUQm9JKURGV30BWg5VTGa/view?usp=sharing",
+  portfolio_repository: "https://github.com/Barkha2099/Barkha2099.github.io",
 };
 
 const socialMediaLinks = [
-  
   {
     name: "Github",
-    link: "https://github.com/Drago215193",
+    link: "https://github.com/Barkha2099/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ankit-yadav-1682b01bb/",
+    link: "https://www.linkedin.com/in/barkha-pawar-773514211/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
 
   {
     name: "Gmail",
-    link: "mailto:ankityadav215193@gmail.com",
+    link: "mailto:barkhapawar2099@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/Drago215193/",
+    link: "https://twitter.com/",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
-    name: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=100008059756038/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
     name: "Instagram",
-    link: "https://www.instagram.com/__a_n_k_i_t_._/",
+    link: "https://instagram.com/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -130,37 +123,36 @@ const skills = {
             color: "#211F1F",
           },
         },
-        {
-          skillName: "Express.js",
-          fontAwesomeClassname: "simple-icons:express",
-          style: {
-            backgroundColor: "transparent",
-            color: "#211F1F",
-          },
-        },
-        
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        
+        // {
+        //   skillName: "Express.js",
+        //   fontAwesomeClassname: "simple-icons:express",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#211F1F",
+        //   },
+        // },
+
+        // {
+        //   skillName: "ReactJS",
+        //   fontAwesomeClassname: "simple-icons:react",
+        //   style: {
+        //     color: "#61DAFB",
+        //   },
+        // },
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "simple-icons:node-dot-js",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
       ],
     },
     {
@@ -212,11 +204,18 @@ const skills = {
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
       ],
       softwareSkills: [
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#47A248",
+        //   },
+        // },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#47A248",
+            color: "#234FC7",
           },
         },
         {
@@ -233,8 +232,6 @@ const skills = {
             color: "#4285F4",
           },
         },
-
-        
       ],
     },
     {
@@ -275,29 +272,13 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/ankityadav215193",
-    },
-    {
       siteName: "Qwiklabs",
       iconifyClassname: "simple-icons:qwiklabs",
       style: {
         color: "#FCD12A",
       },
-      profileLink: "https://google.qwiklabs.com/public_profiles/f5e6d474-8889-498e-9162-5f969579ddb7",
-    },
-    {
-      siteName: "Microsoft-Learn",
-      iconifyClassname: "simple-icons:microsoft",
-      style: {
-        color: "#00a2ed",
-        backgroundColor: "white"
-      },
-    profileLink: "https://docs.microsoft.com/en-us/users/ankityadav-4638/achievements",
+      profileLink:
+        "https://www.cloudskillsboost.google/public_profiles/235c6226-5563-463b-a4f0-2735a2debbb6",
     },
     {
       siteName: "Coursera",
@@ -310,7 +291,7 @@ const competitiveSites = {
       siteName: "Udemy",
       iconifyClassname: "simple-icons:udemy",
       style: {
-        color: "black", 
+        color: "black",
       },
     },
     {
@@ -339,28 +320,30 @@ const degrees = {
       website_link: "https://www.rungta.ac.in/",
     },
     {
-      title: "Sri Sankara Vidyalaya Bhilai",
-      subtitle: "12th - Physics Chemistry Maths with Computer Science",
-      logo_path: "ssv.png",
-      alt_name: "SSV",
+      title: "Senior Secondary Sector-07 Bhilai",
+      subtitle: "12th - Physics Chemistry Maths with Engineering Graphics.",
+      logo_path: "Steel_Authority_of_India_logo.jpg",
+      alt_name: "SSS7",
       duration: "2017 - 2018",
       descriptions: [
-        "⚡ I have studied Physics Chemistry Maths with Computer Science in 12th",
+        "⚡ I have studied Physics Chemistry Maths with Engineering graphics in 12th",
         "⚡ Apart from this, I have done courses on Basic Python Programming.",
       ],
-      website_link: "http://www.ssvbhilai.edu.in/",
+      website_link:
+        "https://school.careers360.com/schools/bsp-senior-secondary-school-sector-7-bhilai-nagar-bhilai-nagar",
     },
     {
-      title: "Kendriya Vidyalaya, Ahmedabad Cantt",
+      title: "Senior Secondary Sector-07 Bhilai",
       subtitle: "10th",
-      logo_path: "kv.png",
-      alt_name: "KVS",
+      logo_path: "Steel_Authority_of_India_logo.jpg",
+      alt_name: "SSS7",
       duration: "2015 - 2016",
       descriptions: [
         "⚡ I have studied CBSE affiliation Class 10th.",
         "⚡ Apart from this, I have studied HTML, Basic CSS, JavaScript.",
       ],
-      website_link: "https://ahmedabadcantt.kvs.ac.in/",
+      website_link:
+        "https://school.careers360.com/schools/bsp-senior-secondary-school-sector-7-bhilai-nagar-bhilai-nagar",
     },
   ],
 };
@@ -372,110 +355,82 @@ const certifications = {
       subtitle: "- University of Michigan",
       logo_path: "uom_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/8JWS9L8JFEHY",
+        "https://coursera.org/share/da0eacf52c37759cfc13981a9ee6f4dc",
       alt_name: "University of Michigan",
       color_code: "#4169E1",
     },
     {
       title: "Python",
-      subtitle: "- Google",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FSSDALNQCBSZ",
-      alt_name: "python",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Python Project for Data Science",
-      subtitle: "- Azim Hirjani",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/XNFVYDRT3GYW",
-      alt_name: "IBM",
-      color_code: "#0000FF",
-    },
-    {
-      title: "User Experience (UX) Design",
-      subtitle: "- Google",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/HKGJ45ZQ3HAE",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-
-    {
-      title: "Learning Badges",
-      subtitle: "- Microsoft-Learn",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://docs.microsoft.com/en-us/users/ankityadav-4638/achievements",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "JavaScript",
-      subtitle: "- HackerRank",
-      logo_path: "hackerrank_logo.png",
-      certificate_link:
-        "https://www.hackerrank.com/certificates/8fec7ddf31fb",
-      alt_name: "javaScript",
-      color_code: "black",
-    },
-
-    {
-      title: "Web Development Bootcamp",
-      subtitle: "- Angela Yu",
+      subtitle: "- Hamza Sarih",
       logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Udemy",
+        "https://www.udemy.com/certificate/UC-cfa63f17-5ddf-4fa8-9480-0752cd97d114/",
+      alt_name: "python",
       color_code: "#28282B",
+    },
+
+    {
+      title: "Google Cloud Training",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
+      certificate_link:
+        "https://www.cloudskillsboost.google/public_profiles/235c6226-5563-463b-a4f0-2735a2debbb6",
+      alt_name: "GCP",
+      color_code: "#4285F499",
+    },
+
+    {
+      title: "C++ Programming",
+      subtitle: "- Lernen Hub Academy",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-8b8c4899-becd-409a-b712-2cfb2f473d65/",
+      alt_name: "udemy",
+      color_code: "#28282B",
+    },
+    {
+      title: "JavaScript Essential",
+      subtitle: "- LinkedIn Learning",
+      logo_path: "linkedin_learning_logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/01b0b9ad36a2d1c539db0f68fe574ec3984c57d6d74d9a8ba661738e3f2cfca3?trk=share_certificate",
+      alt_name: "Linkedin",
+      color_code: "white",
+    },
+    {
+      title: "C for Everyone",
+      subtitle: "- University of California, Santa Cruz",
+      logo_path: "UCSC-logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/cd72348fe475a67b42527364bbbb4dd3",
+      alt_name: "UCSC",
+      color_code: "white",
     },
     {
       title: "Java",
       subtitle: "- LinkedIn Learning",
       logo_path: "linkedin_learning_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1K5fLRl5sCmaX9Ft-Rhnh8jvdd6vuoXdG/view?usp=sharing",
+        "https://www.linkedin.com/learning/certificates/21f0c2367e58a95562c458123fba91911a0025ebf92b82a5bcd784131e82f51e?trk=share_certificate",
       alt_name: "Linkedin",
       color_code: "white",
     },
-    
     {
-      title: "Google Cloud Training",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Java",
+      subtitle: "- LearnQuest",
+      logo_path: "coursera.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/f5e6d474-8889-498e-9162-5f969579ddb7",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://coursera.org/share/9f82c128fb09a999146cd11be759dabe",
+      alt_name: "LearnQuest",
+      color_code: "white",
     },
     {
-      title: "Cybersecurity Fundamentals",
-      subtitle: "- Open P-Tech",
-      logo_path: "open-p-tech_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1vNcDv4CmDqib4OLYeaKEEaitdk7jzecb/view?usp=sharing",
-      alt_name: "Open P-Tech",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Python",
-      subtitle: "- HackerRank",
-      logo_path: "hackerrank_logo.png",
-      certificate_link:
-        "https://www.hackerrank.com/certificates/8d649feea167",
-      alt_name: "Python",
-      color_code: "black",
-    },
-    {
-      title: "C++ Programming",
-      subtitle: "- Lernen Hub Academy",
+      title: "HTML, CSS, & JavaScript",
+      subtitle: "- Udemy",
       logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-20c8d6bb-0a8b-44ef-a85b-7866cd25b46d/",
-      alt_name: "Udemy",
+        "https://www.udemy.com/certificate/UC-2c86292a-d3eb-4309-9548-e2a8cfdf5ec4/",
+      alt_name: "udemy",
       color_code: "#28282B",
     },
   ],
@@ -493,26 +448,14 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Front End Development Intern",
-          company: "Student Point",
-          logo_path: "sp_logo.png",
-          duration: "May 2021 - July 2021",
-          location: "Work From Home",
-          description:
-            "I have worked on project of Education website. It Consist Of Video management system for classes, Doubt section and Private chat box, To build a easy to interact, easy to use platform which is Student friendly and can be accessed by student without any difficulties, it consist of video lectures for students depending on their respective classes and subjects, with a mode switch toggle to switch between dark and light mode.",
-          color: "#ee3c26",
-        },
-        {
           title: "Intern",
-          company: "WhiteHat Jr.",
-          company_url:
-            "https://www.whitehatjr.com/",
-          logo_path: "whjr-removebg-preview.png",
-          duration: "July 2021 - July 2021",
+          company: "Wipro Technologies",
+          logo_path: "Wipro-logo.png",
+          duration: "March 2022 - June 2022",
           location: "Work From Home",
           description:
-            "This is an Education Company. It provides Live online teaching classes to students. I have made some front-end designs for them. But unfortunately was not able to complete my internship period due to circumstances.",
-          color: "#0071C5",
+            "Wipro Limited is an Indian multinational corporation that provides information technology, consulting and business process services. It offered a three month internship where we learned Java programming and worked on a project where they asked us to create a responsive webpage showing data from different areas of the country affected due to covid-19 panedemic, using API and other functions. And after successfull completion of internship and project they provide us a Internship Completion Certificate.",
+          color: "#ee3c26",
         },
       ],
     },
@@ -524,10 +467,10 @@ const experience = {
           company: "SAIL Bhilai Steel Plant",
           company_url: "https://www.sail-bhilaisteel.com/",
           logo_path: "Steel_Authority_of_India_logo.jpg",
-          duration: "December 2020 - January 2021",
+          duration: "January 2021 - February 2021",
           location: "Bhilai, Chhattisgarh",
           description:
-            "I have designed a new Login/Signup Page & Homepage for the Computer and Network Department. And Designed an online Web event calender for the employees which shows upcoming events and holidays and can be used as a diary.",
+            "I designed a Voluntary Retirement Scheme (VRS) Calculator with Login/Signup Page for the employees about to retire, so that they can calculate there respective pension against there profile, consisting there joining date and other details.",
           color: "#0879bf",
         },
       ],
@@ -547,27 +490,6 @@ const experience = {
             "Google Cloud Ready is a Google-sponsored program for university students to get started with Google Cloud. The curriculum offers 4 Milestones of Google Cloud (Beginner, Intermediate, Advanced, Ultimate) and relies on university student to train and use cloud computing.",
           color: "#4285F4",
         },
-        {
-          title: "Microsoft Azure Virtual Training",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "March 2021 - April 2021",
-          location: "Work From Home",
-          description:
-            "Microsoft Azure Virtual Training is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have attended workshops and seminars to learn about Basic Cloud Computing concepts.",
-          color: "#D83B01",
-        },
-        {
-          title: "Techfest",
-          company: "Aakriti Techfest'20",
-          logo_path: "AAKRITI-2020.png",
-          duration: "March 2020 - May 2020",
-          location: "Work From Home",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
       ],
     },
   ],
@@ -585,27 +507,25 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "Profile_b.png",
     description:
-      "Have any project in mind? Say Hello at:.",
+      "Feel free to drop an email if you have any project or any oppurtunity in mind or just want to chat! Say Hello at:.",
   },
   blogSection: {
     title: "LinkedIn",
-    subtitle:
-      "Visit My LinkedIn Profile",
-    link: "https://www.linkedin.com/in/ankit-yadav-1682b01bb/",
+    subtitle: "Visit My LinkedIn Profile",
+    link: "https://www.linkedin.com/in/barkha-pawar-773514211/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Sector-05, Bhilai, Dist.-Durg, Chhattisgarh - 490006",
+    subtitle: "Sector-06, Bhilai, Dist.-Durg, Chhattisgarh - 490006",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/tFjWiFss8WytwJvK8",
+    location_map_link: "https://goo.gl/maps/5oToYA7GEzRG9kqo8",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 6264032336",
+    title: "",
+    subtitle: "",
   },
 };
 
